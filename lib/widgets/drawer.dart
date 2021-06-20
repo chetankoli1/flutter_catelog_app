@@ -26,7 +26,9 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
             ListTile(
-              onTap: () {},
+              onTap: () {
+                print("home pressed");
+              },
               leading: Icon(
                 CupertinoIcons.home,
                 color: Colors.black,
@@ -38,7 +40,9 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
             ListTile(
-              onTap: () {},
+              onTap: () {
+                print("profile pressed");
+              },
               leading: Icon(
                 CupertinoIcons.profile_circled,
                 color: Colors.black,
@@ -50,7 +54,9 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
             ListTile(
-              onTap: () {},
+              onTap: () {
+                print("feedback pressed");
+              },
               leading: Icon(
                 CupertinoIcons.mail,
                 color: Colors.black,
